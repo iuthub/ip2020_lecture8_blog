@@ -1,4 +1,4 @@
-<img src="https://www.dropbox.com/s/htzyykrnyj9x4k1/simple_blog.png?dl=1">
+<img src="https://i.imgur.com/ZQ0vByD.png">
 
 ## Simple Laravel Blog
 
