@@ -37,6 +37,14 @@ class PostsRepo {
 		return $this->session->get('posts')[$id];
 	}
 
+	public function getPostByTitle($title) {
+		$posts=$this->session->get('posts');
+		foreach($posts as $post) {
+			if($post['title']==$title) return $post;
+		}
+		return null;
+	}
+
 	public function addPost($title, $body) {
 		$posts = $this->session->get('posts');
 		array_push($posts, [

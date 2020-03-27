@@ -27,6 +27,14 @@ class PostsController extends Controller
 	    ]);
     }
 
+    public function getBlogPostByTitle($title, Store $session) {
+        $postsRepo = new PostsRepo($session);
+
+        return view('blog.post', [
+            'post' => $postsRepo->getPostByTitle($title)
+        ]);   
+    }
+
     public function getOthersAbout() {
     	return view('others.about');
     }

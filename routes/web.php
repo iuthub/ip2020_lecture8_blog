@@ -26,6 +26,10 @@ Route::get('/posts/{id}', [
 	'as' => 'blogPost'
 ]);
 
+Route::get('/postsByTitle/{title}', [
+	'uses' => 'PostsController@getBlogPostByTitle',
+	'as' => 'blogPostByTitle'
+]);
 
 Route::get('/about', [
 	'uses' => 'PostsController@getOthersAbout',
