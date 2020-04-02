@@ -4,6 +4,16 @@
 
 This is an example of a simple blog application using Laravel framework. We have created it as an example for Lecture 8 in Internet Programming module at IUT 2020.
 
+## Youtube Videos:
+
+### Lecture Videos:
+- Part 1: https://youtu.be/FKAMWf5coNY
+- Part 2: https://youtu.be/qcSo7clAUno
+- Part 3: https://youtu.be/5L8JoDSisnY
+
+### Project Walkthrough Video:
+- https://youtu.be/NcTXYG3mp6I
+
 ## How to setup on your computer
 
 Go through following steps:
